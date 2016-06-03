@@ -1,4 +1,4 @@
-# kof 系列 jQuery 插件之拖拽插件
+# kof 系列 jQuery 插件之 `拖拽` 插件
 
 jquery.kof.drag.js
 
