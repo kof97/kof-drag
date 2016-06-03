@@ -17,8 +17,8 @@ jquery.kof.drag.js
 首先引入 `jQuery` 和 `jquery.kof.drag.js` 
 
 ```
-	<script src="javascript/jquery-1.9.0.min.js"></script>
-	<script src="javascript/jquery.kof.drag.js"></script>
+    <script src="javascript/jquery-1.9.0.min.js"></script>
+    <script src="javascript/jquery.kof.drag.js"></script>
 ```
 
 然后给需要拖拽的元素添加 `id` 或 `class`
@@ -26,11 +26,11 @@ jquery.kof.drag.js
 初始化：
 
 ```
-	<script>
+    <script>
 
-		$(".drag").drag({ x: 300, y: 300 });
+        $(".drag").drag({ x: 300, y: 300 });
 
-	</script>
+    </script>
 ```
 
 参数说明：
@@ -40,10 +40,10 @@ jquery.kof.drag.js
 > **y** 为可拖拽的最大偏移 `纵` 坐标，以初始位置为标准
 
 ```
-	$(selector).drag({ 
-		x: 300,
-		y: 300
-	});
+    $(selector).drag({ 
+        x: 300,
+        y: 300
+    });
 ```
 
 PS: 最好不要给拖拽的元素使用 `top` `left` 属性
