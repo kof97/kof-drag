@@ -23,7 +23,6 @@
                 return {x: e.pageX, y: e.pageY};
             }
             return {
-                // 当前指针位置
                 x: e.clientX + document.body.scrollLeft - document.body.clientLeft,
                 y: e.clientY + document.body.scrollTop - document.body.clientTop
             }; 
