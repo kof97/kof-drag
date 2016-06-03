@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>原生 JavaScript 拖拽</title>
+
+	<style>
+		#drag { border: solid; width: 100px; height: 100px; cursor: move; }
+
+	</style>
+</head>
+<body>
+
+<div id="drag">
+	
+
+</div>
+
+</body>
+</html>
+<script src="javascript/javascript.drag.js"></script>
+<script>
+window.onload = function() {
+	
+    var drag = document.getElementById("drag");
+    var conf = { x: 400, y: 400 };
+    var d = new Drag(drag, conf);
+    d.init();
+
+}	
+
+</script>
+
